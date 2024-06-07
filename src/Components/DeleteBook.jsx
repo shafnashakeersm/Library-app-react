@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBook from './NavBook'
 
 const DeleteBook = () => {
   return (
     <div>
+        <NavBook/>
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -12,7 +14,7 @@ const DeleteBook = () => {
                             <input type="text" className="form-control" />
                         </div>
                         <div className="col col-12 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <button className="btn btn-warning">DELETE</button>
+                            <button className="btn btn-danger">DELETE</button>
                         </div>
                     </div>
                 </div>
